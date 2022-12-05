@@ -78,10 +78,10 @@ function toggleDarkMode() {
       color: #ebf4f1;
     }
 
-    .bg-white {
+     .bg-white {
       --tw-bg-opacity: 1;
       background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-    }
+    } 
     
     @media (min-width: 768px) {
       .dark-mode .dark\:md\:bg-slate-900\/90 {
