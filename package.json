@@ -1,0 +1,23 @@
+{ "name": "timechain-web",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "https://github.com/timechain-academy/timechain-web",
+  "author": "bitkarrot",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27769790.4b27db3",
+    "@nuxtjs/color-mode": "^3.1.8",
+    "@nuxtjs/tailwindcss": "^6.1.3",
+    "autoprefixer": "^10.4.13",
+    "nuxt": "3.0.0-rc.12",
+    "postcss": "^8.4.18"
+  },
+  "dependencies": {}
+}
