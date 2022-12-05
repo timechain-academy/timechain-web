@@ -1,6 +1,9 @@
 <template>
     <main>
         <Hero />
-        <Features />
+        <Cards/>
+        <Splash />
+        <hr/>
+        <Footer />
     </main>
 </template>
