@@ -78,7 +78,26 @@ function toggleDarkMode() {
       color: #ebf4f1;
     }
 
-     .bg-white {
+    .dark-mode .dark\:bg-slate-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+    }
+
+    .dark-mode .dark\:border-b-0 {
+    border-bottom-width: 0px;
+    }
+
+    .dark-mode .dark\:hover\:bg-gray-700:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+    }
+
+    .dark-mode .dark\:focus\:ring-gray-700:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
+    }
+
+    .bg-white {
       --tw-bg-opacity: 1;
       background-color: rgb(255 255 255 / var(--tw-bg-opacity));
     } 
