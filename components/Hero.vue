@@ -17,7 +17,7 @@
               <div class="flex w-full sm:w-auto">
                 <a
                   class="btn text-white border border-primary-600 bg-primary-600 hover:bg-primary-800 hover:border-primary-800 sm:mb-0 font-bold w-full px-10 py-3 rounded-md"
-                  href="https://github.com/bitkarrot/tailnuxt"
+                  href="#home"
                 >
                   Get Involved
                 </a>
@@ -36,7 +36,7 @@
         <div>
           <div class="relative mb-8 m-auto max-w-5xl">
             <nuxt-img
-              src="/sample-imgs/sd1.png"
+              src="/sample-imgs/sd1_crop.png"
               width="1024"
               height="576"
               class="mx-auto rounded-md shadow-lg bg-gray-400 dark:bg-slate-700 w-full"/>
