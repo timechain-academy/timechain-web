@@ -17,19 +17,19 @@
               <div class="flex w-full sm:w-auto">
                 <a
                   class="btn text-white border border-primary-600 bg-primary-600 hover:bg-primary-800 hover:border-primary-800 sm:mb-0 font-bold w-full px-10 py-3 rounded-md"
-                  href="#home"
+                  href="#Kickstart"
                 >
                   Get Involved
                 </a>
               </div>
-              <div class="flex w-full sm:w-auto">
+              <!-- <div class="flex w-full sm:w-auto">
                 <a
                   class="btn bg-transparent border border-gray-400 hover:bg-gray-200 dark:hover:bg-gray-800 w-full px-10 py-3 rounded-md"
-                  href="#Kickstart"
+                  href="#"
                 >
                   Learn more
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
