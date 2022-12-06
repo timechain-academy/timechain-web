@@ -1,7 +1,7 @@
 <template>
     <main>
         <Hero />
-        <Cards/>
+        <Kickstart/>
         <Splash />
         <hr/>
         <Footer />

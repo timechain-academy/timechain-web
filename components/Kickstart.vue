@@ -1,4 +1,5 @@
 <template>
+  <a name="Kickstart"></a>
   <section class="bg-gray-900 text-white">
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-lg text-center">
@@ -13,7 +14,7 @@
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
+          href="#">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -32,7 +33,7 @@
         </a>
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
+          href="#">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -51,7 +52,7 @@
         </a>
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
+          href="#">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -70,7 +71,7 @@
         </a>
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
+          href="#">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -89,7 +90,7 @@
         </a>
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
+          href="#">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -108,7 +109,7 @@
         </a>
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/services/digital-campaigns">
+          href="#">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />

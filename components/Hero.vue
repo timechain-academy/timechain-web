@@ -25,7 +25,7 @@
               <div class="flex w-full sm:w-auto">
                 <a
                   class="btn bg-transparent border border-gray-400 hover:bg-gray-200 dark:hover:bg-gray-800 w-full px-10 py-3 rounded-md"
-                  href="#features"
+                  href="#Kickstart"
                 >
                   Learn more
                 </a>
