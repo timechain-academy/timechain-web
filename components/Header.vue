@@ -13,7 +13,7 @@
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/#">
-              Pages
+              Events
             </a>
           </li>
           <li>
