@@ -1,4 +1,7 @@
 <template>
+    <!--
+                    This page needs to read content dynamically from a component
+     -->
     <main>
             <div class="text-center py-6"> 
                 <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">         
