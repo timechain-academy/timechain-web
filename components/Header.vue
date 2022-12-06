@@ -3,7 +3,7 @@
     class="sticky top-0 z-40 flex-none mx-auto w-full  bg-white  md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900/90 md:backdrop-blur-sm border-b dark:border-b-0">
     <div class="py-3 px-3 mx-auto w-full md:flex md:justify-between max-w-6xl md:px-4">
       <div class="flex justify-between">
-        <a class="flex items-center" href="#">
+        <a class="flex items-center" href="/">
           <Logo />
         </a>
         <div class="flex items-center md:hidden"></div>
@@ -12,19 +12,25 @@
         <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center md:w-auto collapsed text-xl md:text-base">
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/#">
-              Pages
+              href="/connect">
+              Connect
             </a>
           </li>
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/#">
+              href="/events">
+              Events
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+              href="/resources">
               Resources
             </a>
           </li>
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/#">
+              href="/blog">
               Blog
             </a>
           </li>
@@ -78,7 +84,26 @@ function toggleDarkMode() {
       color: #ebf4f1;
     }
 
-     .bg-white {
+    .dark-mode .dark\:bg-slate-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+    }
+
+    .dark-mode .dark\:border-b-0 {
+    border-bottom-width: 0px;
+    }
+
+    .dark-mode .dark\:hover\:bg-gray-700:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+    }
+
+    .dark-mode .dark\:focus\:ring-gray-700:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
+    }
+
+    .bg-white {
       --tw-bg-opacity: 1;
       background-color: rgb(255 255 255 / var(--tw-bg-opacity));
     } 
