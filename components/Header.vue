@@ -73,6 +73,8 @@ function toggleDarkMode() {
     colorMode.preference = "light"
   } else if (colorMode.preference == "light") {
     colorMode.preference = "dark"
+  } else if (colorMode.preference == "system") {
+    colorMode.preference = "dark"
   }
   console.log("local is now set to : ", colorMode.preference)
 }
