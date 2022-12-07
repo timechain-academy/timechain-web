@@ -1,9 +1,15 @@
 <template>
-    <main>
-        <Hero />
-        <Kickstart/>
-        <Splash />
-        <hr/>
-        <Footer />
-    </main>
+    <NuxtLayout :name="layout">
+        <Header />
+            <Hero />
+            <Kickstart/>
+            <Splash />
+            <hr/>
+            <Footer />
+    </NuxtLayout>
 </template>
+
+<script setup> 
+  const layout = "default";
+</script>
+

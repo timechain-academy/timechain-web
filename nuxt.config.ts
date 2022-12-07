@@ -1,10 +1,18 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
       modules: [
+            '@nuxt/content',
             '@nuxtjs/tailwindcss',
             '@nuxt/image-edge',
             '@nuxtjs/color-mode',
       ],
+      content: { 
+            highlight: {
+                   theme: 'one-dark-pro'
+               },
+            documentDriven: true
+            // https://content.nuxtjs.org/api/configuration
+      },
       css: ['@/assets/base.css'],
       colorMode: {    
             preference: 'dark', // default value of $colorMode.preference    

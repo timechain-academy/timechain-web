@@ -1,14 +1,13 @@
 <template>
-    <!--
-                    This page needs to read content dynamically from a component
-                    https://v1.tailwindcss.com/docs/table-layout
-                -->
-
-    <main>
+    <NuxtLayout :name="layout">
+    	<Header />
         <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">
                 Courses
             </h1>
+            <p>
+                Description about the course setup here. 
+            </p>
             <div>
                 <table class="table-auto dark:bg-slate-700">
                     <thead>
@@ -24,8 +23,8 @@
                             <td class="border px-4 py-2">Adam</td>
                             <td class="border px-4 py-2">858</td>
                         </tr>
-                        <tr class="bg-gray-400 dark:bg-slate-400">
-                            <td class="border px-4 py-2">A Long and Winding Tour of the History of UI Frameworks and
+                        <tr>
+                            <td class="border px-4 py-2 dark-mode:bg-slate-400">A Long and Winding Tour of the History of UI Frameworks and
                                 Tools and the Impact on Design</td>
                             <td class="border px-4 py-2">Adam</td>
                             <td class="border px-4 py-2">112</td>
@@ -38,7 +37,10 @@
                     </tbody>
                 </table>
             </div>
-
         </div>
-    </main>
+        </NuxtLayout>
 </template>
+
+<script setup> 
+  const layout = "default";
+</script>

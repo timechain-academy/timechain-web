@@ -7,8 +7,9 @@
             <p>Tailwind solves a complex problem in an elegant way. It provides a ready-to-use UI, all while not
                 compromising on enabling developers to quickly build anything imaginable.</p>
         </blockquote>
-        <figcaption class="flex items-center space-x-4"><img src="https://tailwindcss.com/_next/static/media/brentgarner.09ab30c4.jpg" alt=""
-                class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async">
+        <figcaption class="flex items-center space-x-4">
+            <nuxt-img src="https://tailwindcss.com/_next/static/media/brentgarner.09ab30c4.jpg" alt=""
+                class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async"/>
             <div class="flex-auto">
                 <div class="text-base text-slate-900 font-semibold dark:text-slate-300">
                     <a
