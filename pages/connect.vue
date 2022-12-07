@@ -11,7 +11,7 @@
             <h3 class="font-bold">
                 Examples of things that might go here:
             </h3>
-            <div class="py-5 space-x-5"> 
+            <div class="py-5"> 
                 <p>
                 <ul>
                     <li>

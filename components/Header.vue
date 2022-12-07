@@ -18,14 +18,8 @@
           </li>        
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/courses">
-              Courses
-            </a>
-          </li>
-          <li>
-            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/1on1">
-              1on1
+              href="/#Kickstart">
+              Learn
             </a>
           </li>
           <li>
