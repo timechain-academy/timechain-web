@@ -12,26 +12,26 @@
         <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center md:w-auto collapsed text-xl md:text-base">
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/connect">
-              Connect
-            </a>
-          </li>
-          <li>
-            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/events">
               Events
             </a>
-          </li>
+          </li>        
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/resources">
-              Resources
+              href="/#Kickstart">
+              Learn
             </a>
           </li>
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/blog">
               Blog
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+              href="/connect">
+              Connect
             </a>
           </li>
           <li class="md:hidden">
@@ -47,7 +47,7 @@
               class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
               <IconSun class="w-5 h-5" />
             </button>
-            <a href="https://github.com/bitkarrot/tailnuxt"
+            <a href="https://github.com/timechain-academy/timechain-web"
               class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
               <GitIcon class='w-5 h-5' />
             </a>
@@ -67,6 +67,8 @@ function toggleDarkMode() {
     colorMode.preference = "light"
   } else if (colorMode.preference == "light") {
     colorMode.preference = "dark"
+  } else if (colorMode.preference == "system") {
+    colorMode.preference = "dark"
   }
   console.log("local is now set to : ", colorMode.preference)
 }
@@ -74,6 +76,7 @@ function toggleDarkMode() {
 
 
 <style>
+
     body {
       background-color: #fff;
       color: rgba(0, 0, 0, 0.8);
@@ -120,4 +123,4 @@ function toggleDarkMode() {
       }
     }
 
-</style>
+</style> 

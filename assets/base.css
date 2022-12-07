@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +10,6 @@
   .btn-ghost {
 		@apply border-none shadow-none text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white;
 	}
-
 	.btn-primary {
 		@apply font-semibold bg-primary-600 text-white border-primary-600 hover:bg-primary-800 hover:border-primary-800 hover:text-white dark:text-white dark:bg-primary-700 dark:border-primary-700 dark:hover:border-primary-900 dark:hover:bg-primary-900;
 	}

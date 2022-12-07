@@ -1,22 +1,20 @@
 <template>
     <NuxtLayout :name="layout">
     <Header />
-     <!--
-                    This page needs to read content dynamically from a component
-     -->
         <main>
             <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
                 <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">         
-                Events
+                Lightning Network
                 </h1> 
-                <section>
+            </div>
+            <section>
   <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div class="relative z-10 lg:py-16">
         <div class="relative h-64 sm:h-80 lg:h-full">
           <nuxt-img
             alt="Events"
-            src="/sample-imgs/sd3.png"
+            src="/sample-imgs/sd2.png"
             class="absolute inset-0 h-full w-full object-cover"
           />
         </div>
@@ -28,12 +26,12 @@
 
         <div class="p-8 sm:p-16 lg:p-24">
           <h2 class="text-2xl font-bold sm:text-3xl text-black">
-           Join our Awesome Events.
+           Adopt the Lightning Network 
           </h2>
 
           <p class="mt-4 text-gray-600">
-            Event Calendar below. 
-          </p>
+            Place holder here         
+         </p>
           <a
             href="#"
             class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
@@ -47,11 +45,10 @@
 </section>
 
 
-                
-            </div>
         </main>
     </NuxtLayout>
 </template>
+
 
 <script setup> 
   const layout = "default";
