@@ -15,7 +15,7 @@
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/bitcoin">
+          href="https://timechain-docs.vercel.app/en/bitcoin/intro">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -34,7 +34,7 @@
         </a>
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/lightning">
+          href="https://timechain-docs.vercel.app/en/lightning/intro">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -112,7 +112,7 @@
 
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-          href="/resources">
+          href="https://timechain-docs.vercel.app/en/devtools/intro">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
             stroke="currentColor">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -131,7 +131,7 @@
         </a>
       </div>
 
-      <div class="mt-12 text-center">
+      <!-- <div class="mt-12 text-center">
         <a href="#"
           class="mt-8 inline-flex items-center rounded border border-pink-600 bg-pink-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-pink-500">
           <span class="text-sm font-medium"> Get Started </span>
@@ -141,7 +141,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
         </a>
-      </div>
+      </div> -->
+
     </div>
   </section>
 </template>
