@@ -23,8 +23,9 @@ export default defineNuxtConfig({
             globalName: '__NUXT_COLOR_MODE__',    
             componentName: 'ColorScheme',    
             classPrefix: '',   
-            classSuffix: '-mode',    
-            storageKey: 'nuxt-color-mode' 
+//            classSuffix: '-mode',    
+            classSuffix:'',
+           storageKey: 'nuxt-color-mode' 
       }, 
       image: {    // The screen sizes predefined by `@nuxt/image`:   
              screens: {      

@@ -1,14 +1,20 @@
 <template>
   <header
-    class="sticky top-0 z-40 flex-none mx-auto w-full  bg-white  md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900/90 md:backdrop-blur-sm border-b dark:border-b-0">
+    class="sticky top-0 z-40 flex-none mx-auto w-full bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 md:backdrop-blur-sm border-b dark:border-b-0">
     <div class="py-3 px-3 mx-auto w-full md:flex md:justify-between max-w-6xl md:px-4">
       <div class="flex justify-between">
         <a class="flex items-center" href="/">
           <Logo />
         </a>
-        <div class="flex items-center md:hidden"></div>
+        <div class="flex items-center md:hidden">
+          <!-- what goes here? -->
+        </div>
       </div>
-      <nav class="items-center w-full md:w-auto hidden md:flex  h-screen md:h-auto" id="menu">
+      <nav
+			class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-[calc(100vh-100px)] md:h-auto overflow-y-auto md:overflow-visible"
+			aria-label="Main navigation"
+		>
+      <!-- <nav class="items-center w-full md:w-auto hidden md:flex  h-screen md:h-auto" id="menu"> -->
         <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center md:w-auto collapsed text-xl md:text-base">
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
@@ -60,6 +66,7 @@
 
 
 <script setup>
+
 const colorMode = useColorMode()
 console.log("initial color mode: ", colorMode.preference)
 function toggleDarkMode() {
@@ -76,7 +83,7 @@ function toggleDarkMode() {
 
 
 <style>
-
+/* 
     body {
       background-color: #fff;
       color: rgba(0, 0, 0, 0.8);
@@ -121,6 +128,7 @@ function toggleDarkMode() {
       .md\:bg-white\/90 {
         background-color: rgb(255 255 255 / 0.9);
       }
-    }
+    } 
+*/
 
 </style> 
