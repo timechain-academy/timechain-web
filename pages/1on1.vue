@@ -5,11 +5,11 @@
                     This page needs to read content dynamically from a component
      -->
             <div class="text-center py-6"> 
-                <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">         
+                <h1 class="text-5xl md:text-6xl dark:text-white  font-bold leading-tighter tracking-tighter mb-6 font-heading">         
                 1 on 1 sessions
             </h1> 
 
-                <p class="text-lg font-medium ">
+                <p class="text-lg font-medium dark:text-white">
                             Book a 1 on 1 session with a timechain academy instructor here. 
             </p>
             </div>
