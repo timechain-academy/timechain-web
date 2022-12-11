@@ -6,7 +6,7 @@
 		<h1>
 			Blog
         </h1>
-		<h2 class="py-5">markdown isn't styling in dark mode, need fix </h2>
+		<h2 class="py-5 text-red-500">markdown isn't styling in dark mode, need fix </h2>
 			<div class="px-5 mx-auto text-left">
 					<article>
 						<ContentDoc path="/" class="prose dark:prose-invert" />
