@@ -1,16 +1,15 @@
 <template>
     <NuxtLayout :name="layout">
     	<Header />
-        <main class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
         <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
-            <h1 class="text-5xl dark:text-white md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">
+            <h1 class="py-6 text-5xl dark:text-white md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">
                 Courses
             </h1>
-            <p class="dark:text-white">
+            <p class="py-6 text-gray-900 dark:text-white">
                 Description about the course setup here. 
             </p>
-            <div>
-                <table class="table-auto bg-white dark:bg-slate-700 dark:text-white ">
+            <div class="py-6">
+                <table class="table-auto bg-white dark:bg-slate-900 dark:text-white ">
                     <thead>
                         <tr>
                             <th class="px-4 py-2">Title</th>
@@ -39,7 +38,6 @@
                 </table>
             </div>
         </div>
-        </main>
         </NuxtLayout>
 </template>
 
