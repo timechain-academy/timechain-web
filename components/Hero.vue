@@ -1,5 +1,6 @@
 <template> 
-  <section class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
+<section>
+<!-- <section class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0"> -->
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="py-12 md:py-20">
         <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
