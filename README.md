@@ -1,12 +1,25 @@
 # timechain-web
 timechain academy website
 
-just bitkarrot messing around with nuxt3, trying to make it look pretty
+## Commands
 
-Todo list: 
+`yarn install`  installs dependencies
+`yarn dev -o`   starts local dev server at `localhost:3000`
+
+
+## Todo list: 
 - use tailnuxt template [done]
 - apply styles, logos, images [done]
-- add Nuxt 3 Content for markdown ability [done] [but use timechain-docs repo instead]
+- add Nuxt 3 Content for markdown ability [done] [see timechain-docs repo]
 - organize content and guides [done] [see timechain-docs]
-- add meetings/events/bookings calendar w/static data backend [todo]
-- integrate cal.com and/or lightning payments for teaching sessions [todo]
+- add events calendar & 1on1 ssr w/static data backend [todo]
+- fix up connect page [todo]
+- integrate cal.com and/or btc/ln payments for teaching sessions [todo]
+
+### CSS styling
+
+- tailwindcss
+- @tailwindcss/typography
+- @tailwindcss/forms
+- hyperUI front page layout
+- Daisy UI for components
