@@ -8,7 +8,9 @@ export default defineNuxtConfig({
       ],
       content: { 
             highlight: {
-                   theme: 'one-dark-pro'
+                  theme: {
+                        default: 'one-dark-pro', 
+                  },
                },
             documentDriven: true
             // https://content.nuxtjs.org/api/configuration
