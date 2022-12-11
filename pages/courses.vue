@@ -2,14 +2,14 @@
     <NuxtLayout :name="layout">
     	<Header />
         <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
-            <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">
+            <h1 class="py-6 text-5xl dark:text-white md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">
                 Courses
             </h1>
-            <p>
+            <p class="py-6 text-gray-900 dark:text-white">
                 Description about the course setup here. 
             </p>
-            <div>
-                <table class="table-auto dark:bg-slate-700">
+            <div class="py-6">
+                <table class="table-auto bg-white dark:bg-slate-900 dark:text-white ">
                     <thead>
                         <tr>
                             <th class="px-4 py-2">Title</th>

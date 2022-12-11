@@ -1,47 +1,30 @@
 <template>
-    <!--
-                    This page needs to read content dynamically from a component
-     -->
-     <NuxtLayout :name="layout">
-        <Header />
+    <NuxtLayout :name="layout">
+      <Header />
+      <!--
+                      This page needs to read content dynamically from a component
+       -->
+      <main class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
         <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
-            <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">
-                Connect
-            </h1>
-            <h3 class="font-bold">
-                Examples of things that might go here:
-            </h3>
-            <div class="py-5"> 
-                <p>
-                <ul>
-                    <li>
-                        - A Contact Form
-                    </li>
-                    <li>
-                        - Link to Discord
-                    </li>
-                    <li>
-                        - Register for courses
-                    </li>
-                    <li>
-                        - Book 1 on 1 sessions
-                    </li>
-                </ul>
-                </p>
-                <p class="py-6"> FOSS Sites where we can get tailwind components from, with no license, and will
-                    blend in with this site: </p>
-                    <li >
-                        <a href="https://www.hyperui.dev/">https://www.hyperui.dev/</a>
-                    </li>
-                    <li><a href="https://tailwindcss-forms.vercel.app/">https://tailwindcss-forms.vercel.app/</a>
-                    </li>
+          <h1 class="text-5xl md:text-6xl dark:text-white font-bold leading-tighter tracking-tighter mb-6 font-heading">
+            Connect
+          </h1>
+          <div class="p-8 sm:p-16 lg:p-24">
+                    <h2 class="text-2xl font-bold sm:text-3xl text-black dark:text-white">
+                      Join our Discord
+                    </h2>
+                    <a href="#"
+                      class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
+                      Get in Touch
+                    </a>
+                  </div>
 
 
-            </div>
         </div>
+      </main>
     </NuxtLayout>
-</template>
-
-<script setup> 
+  </template>
+  
+  <script setup>
   const layout = "default";
-</script>
+  </script>

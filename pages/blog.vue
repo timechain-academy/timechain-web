@@ -1,31 +1,31 @@
 <template>
 	<NuxtLayout :name="layout">
     	<Header />
-		<main>
+		<main class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
 		<div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
-		<h1>
-			Blog
-        </h1>
-
-		<div class="px-5 mx-auto">
-			<div class="text-left">
+			<h1 class="py-5 mx-auto text-center text-5xl md:text-6xl text-gray-900 dark:text-white font-bold mb-6">
+				 Blog 
+			</h1>
+			<div class="px-5 mx-auto text-left">
+					<article>
+						<ContentDoc path="/" class="prose dark:prose-invert" />
+					</article>
+			</div>
+		<div class="px-5 mx-auto text-left">
+			<div class="text-gray-900 dark:text-white">
 				This code block below is generated in markdown
 				and added here by a `ContentDoc` tag. The section below is text in markdown.
 				CSS styles on this page are scoped to the blog.vue page.
 			</div>
 
-			<p class="py-5 text-left"><b>Node.js sample code, formatted with color.</b></p>
+			<p class="py-5 text-gray-900 dark:text-white text-left"><b>Node.js sample code, formatted with color from Markdown source</b>
+			</p>
 
-			<div class="container">
-			<ContentDoc path="/codeblock" class="prose text-left" />
-	        </div>
+			<ContentDoc path="/codeblock" class="prose dark:prose-invert text-left" />
 		</div>
-			<div class="px-5 mx-auto text-left">
-				<h2>Not sure why the markdown isn't rendering properly here, need to fix </h2>
-				<ContentDoc path="/" class="prose text-left" />
-			</div>
-    </div>
-	</main>
+	</div>
+
+</main>
 	</NuxtLayout>
 </template>
 
@@ -35,25 +35,28 @@
 
 
 <style scoped>
-@tailwind base; 
+/* change .dark to be .dark-mode so that it can work with @nuxtjs/color-mode  */
+
+
+/* .dark body {
+      background-color: rgb(15 23 42);
+      color: #ebf4f1;
+    }  */
+
+/* @tailwind base; 
 
 @layer base {
-		p {
+*/
+		/* p {
 			@apply text-xl text-gray-500 mb-6;
-		}
+		} */
+/* 		
 		h1 {
-			@apply text-5xl md:text-6xl font-bold leading-tight tracking-tighter mb-6;
+			@apply text-5xl md:text-6xl font-bold mb-6;
 		}
 		h2 {
-			@apply text-4xl md:text-5xl font-bold leading-tight tracking-tighter mb-4;
+			@apply text-3xl md:text-4xl font-bold mb-4;
 		}
-	}
-	.container {  
-		background: #1e1e1e;  
-		padding: 2rem 2rem;
-		position: relative;  
-		margin-top: 1rem;  
-		margin-bottom: 1rem;  
-		overflow: hidden;  
-		border-radius: 0.3rem;}
+	}   */
+
 </style>

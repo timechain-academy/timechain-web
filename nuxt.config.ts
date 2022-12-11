@@ -8,7 +8,9 @@ export default defineNuxtConfig({
       ],
       content: { 
             highlight: {
-                   theme: 'one-dark-pro'
+                  theme: {
+                        default: 'one-dark-pro', 
+                  },
                },
             documentDriven: true
             // https://content.nuxtjs.org/api/configuration
@@ -21,8 +23,9 @@ export default defineNuxtConfig({
             globalName: '__NUXT_COLOR_MODE__',    
             componentName: 'ColorScheme',    
             classPrefix: '',   
-            classSuffix: '-mode',    
-            storageKey: 'nuxt-color-mode' 
+//            classSuffix: '-mode',    
+            classSuffix:'',
+           storageKey: 'nuxt-color-mode' 
       }, 
       image: {    // The screen sizes predefined by `@nuxt/image`:   
              screens: {      
