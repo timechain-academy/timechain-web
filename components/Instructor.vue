@@ -18,7 +18,7 @@
                             class="absolute inset-0"></span>Brent Garner
                         </a>
                 </div>
-                <div class="mt-0.5 text-black">Developer</div>
+                <div class="mt-0.5 text-black dark:text-white">Developer</div>
             </div>
             <div class="text-sky-500 dark:text-sky-400">
                <p> <a href="/connect" class="font-bold">Book a session</a></p>
