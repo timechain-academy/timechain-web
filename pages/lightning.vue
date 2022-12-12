@@ -30,7 +30,10 @@
           </h2>
 
           <p class="mt-4 text-gray-600">
-            Place holder here         
+            Place holder here. 
+            
+           You can create a Markdown file and import it here. 
+        
          </p>
         </div>
       </div>
