@@ -7,10 +7,14 @@
           <Logo />
         </a>
         <div class="flex items-center md:hidden">
-          <!-- what goes here? -->
+          <!-- mobile nav? -->
+          <button class="text-black dark:text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300"
+                    @click="">
+                    &#9776;
+          </button>
         </div>
       </div>
-      <nav
+      <nav 
 			class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-[calc(100vh-100px)] md:h-auto overflow-y-auto md:overflow-visible"
 			aria-label="Main navigation"
 		>
@@ -66,9 +70,9 @@
 
 
 <script setup>
-
 const colorMode = useColorMode()
 console.log("initial color mode: ", colorMode.preference)
+
 function toggleDarkMode() {
   if (colorMode.preference === "dark") {
     colorMode.preference = "light"
@@ -79,56 +83,6 @@ function toggleDarkMode() {
   }
   console.log("local is now set to : ", colorMode.preference)
 }
+
 </script>
 
-
-<style>
-/* 
-    body {
-      background-color: #fff;
-      color: rgba(0, 0, 0, 0.8);
-    }
-
-    .dark-mode body {
-      background-color: rgb(15 23 42);
-      color: #ebf4f1;
-    }
-
-    .dark-mode .dark\:bg-slate-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-    }
-
-    .dark-mode .dark\:border-b-0 {
-    border-bottom-width: 0px;
-    }
-
-    .dark-mode .dark\:hover\:bg-gray-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-    }
-
-    .dark-mode .dark\:focus\:ring-gray-700:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
-    }
-
-    .bg-white {
-      --tw-bg-opacity: 1;
-      background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-    } 
-    
-    @media (min-width: 768px) {
-      .dark-mode .dark\:md\:bg-slate-900\/90 {
-        background-color: rgb(15 23 42 / 0.9);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .md\:bg-white\/90 {
-        background-color: rgb(255 255 255 / 0.9);
-      }
-    } 
-*/
-
-</style> 

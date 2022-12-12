@@ -11,7 +11,7 @@
           </h1>
           <div class="p-8 sm:p-16 lg:p-24">
                     <h2 class="text-2xl font-bold sm:text-3xl text-black dark:text-white">
-                      Join our Discord
+                      Join us on Discord, Twitter, Github
                     </h2>
                     <a href="#"
                       class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
