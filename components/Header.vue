@@ -69,20 +69,44 @@
 </template>
 
 
-<script setup>
-const colorMode = useColorMode()
-console.log("initial color mode: ", colorMode.preference)
-
-function toggleDarkMode() {
-  if (colorMode.preference === "dark") {
-    colorMode.preference = "light"
-  } else if (colorMode.preference == "light") {
-    colorMode.preference = "dark"
-  } else if (colorMode.preference == "system") {
-    colorMode.preference = "dark"
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false,
+    };
+  },
+  methods: {
+    toggleDarkMode() {
+      let colorMode = useColorMode()
+      if (colorMode.preference === "dark") {
+        colorMode.preference = "light"
+      } else if (colorMode.preference == "light") {
+        colorMode.preference = "dark"
+      } else if (colorMode.preference == "system") {
+        colorMode.preference = "dark"
+      }
+      console.log("local is now set to : ", colorMode.preference)
+    },
+    drawer() {
+      this.isOpen = !this.isOpen;
+    }
+  },
+  watch: {
+    isOpen: {
+      immediate: true,
+      handler(isOpen) {
+        if (process.client) {
+          if (isOpen) document.body.style.setProperty("overflow", "hidden");
+          else document.body.style.removeProperty("overflow");
+        }
+      }
+    }
+  },
+  mounted() {
+    document.addEventListener("keydown", e => {
+      if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
+    });
   }
-  console.log("local is now set to : ", colorMode.preference)
-}
-
+};
 </script>
-
