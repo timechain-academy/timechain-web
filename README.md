@@ -16,6 +16,7 @@ timechain academy website
 - add events calendar & 1on1 ssr w/static data backend [todo]
 - fix up connect page to point to discord, contact & creators [todo]
 - Hamburger responsive nav menu for mobile [todo]
+
 - replace lorem ipsum placeholder text with real content [todo]
 - integrate cal.com and/or btc/ln payments for teaching sessions [todo]
 

@@ -5,7 +5,7 @@
                     This page needs to read content dynamically from a component
      -->
     <main class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
-      <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
+      <div class="py-6 text-center pb-10 md:pb-16 max-w-4xl mx-auto">
         <h1 class="text-5xl md:text-6xl dark:text-white font-bold leading-tighter tracking-tighter mb-6 font-heading">
           Events
         </h1>
@@ -27,12 +27,8 @@
                   </h2>
 
                   <p class="mt-4 text-gray-600">
-                    Event Calendar below.
+                    This is an Event Calendar placeholder.
                   </p>
-                  <a href="#"
-                    class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
-                    Get in Touch
-                  </a>
                 </div>
               </div>
             </div>

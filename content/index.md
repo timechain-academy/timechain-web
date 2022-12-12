@@ -1,6 +1,8 @@
-# Hello Placeholder Content in top level directory
+# Hello Placeholder Content
 
-this is a page in markdown using the content module. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. this is a page in markdown using the content module.
+this is a page in markdown using the content module in the top level directory.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci distinctio alias voluptatum blanditiis laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. this is a page in markdown using the content module.
 
 # Header One
 
