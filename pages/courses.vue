@@ -48,7 +48,6 @@
                 </p>
             </section>
         </div>
-        <Footer/>
         </NuxtLayout>
 </template>
 
