@@ -22,7 +22,6 @@
     "postcss": "^8.4.18"
   },
   "dependencies": {
-    "@nuxt/ui": "^0.3.3",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.8"
   }
