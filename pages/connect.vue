@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout :name="layout">
     <Header />
-    <main class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
+    <main class="py-6 bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
       <div class="py-6 text-center pb-10 md:pb-16 max-w-4xl mx-auto">
         <h1 class="text-5xl md:text-6xl dark:text-white font-bold leading-tighter tracking-tighter mb-6 font-heading">
           Connect
@@ -27,6 +27,21 @@
               <GitIcon class='w-10 h-10' />
             </a>
           </div>
+
+          <h3 class="text-5xl md:text-6xl dark:text-white font-bold leading-tighter tracking-tighter mb-6 font-heading">
+          Creators
+          </h3>
+          <div class="p-8 sm:p-16 lg:p-24 dark:text-white font-bold et al. ">
+            Randy, Bitkarrot, et al.
+          </div>
+
+          <h3 class="text-5xl md:text-6xl dark:text-white font-bold leading-tighter tracking-tighter mb-6 font-heading">
+          Donate
+          </h3>
+          <div class="p-8 sm:p-16 lg:p-24 dark:text-white font-bold et al. ">
+            Add button here
+          </div>
+
       </div>
     </main>
   </NuxtLayout>

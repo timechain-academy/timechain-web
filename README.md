@@ -8,17 +8,20 @@ timechain academy website
 `yarn dev -o`   starts local dev server at `localhost:3000`
 
 
-## Todo list: 
+## Todo List: 
+
 - use tailnuxt template [done]
 - apply styles, logos, images [done]
 - add Nuxt 3 Content for markdown ability [done] [see timechain-docs repo]
 - organize content and guides [done] [see timechain-docs]
+- Hamburger responsive nav menu for mobile [done]
+- fix up connect page to point to discord, contact & creators [done]
+
 - add events calendar & 1on1 ssr w/static data backend [todo]
-- fix up connect page to point to discord, contact & creators [todo]
-- Hamburger responsive nav menu for mobile [todo]
+- integrate cal.com, btc/ln payments for teaching sessions [todo]
 
 - replace lorem ipsum placeholder text with real content [todo]
-- integrate cal.com and/or btc/ln payments for teaching sessions [todo]
+
 
 ### CSS styling
 
@@ -26,4 +29,3 @@ timechain academy website
 - @tailwindcss/typography
 - @tailwindcss/forms
 - hyperUI front page layout
-- Daisy UI for components
