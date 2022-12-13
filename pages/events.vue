@@ -43,9 +43,9 @@
                     Join our Awesome Events.
                   </h2>
 
-                  <p class="mt-4 text-gray-600">
+                  <!-- <p class="mt-4 text-gray-600">
                     This is an Event Calendar placeholder.
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
