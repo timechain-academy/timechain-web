@@ -1,6 +1,11 @@
 # timechain-web
 timechain academy website
 
+## About
+
+Buit with Nuxt3 js with tailwindcss and Content v2.0 plugin. 
+Dependencies kept to a minimum.
+
 ## Commands
 
 ```
