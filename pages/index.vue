@@ -4,8 +4,6 @@
             <Hero />
             <Kickstart/>
             <Splash />
-            <hr/>
-          <Footer />
     </NuxtLayout>
 </template>
 
