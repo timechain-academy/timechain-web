@@ -1,15 +1,28 @@
 <template>
   <NuxtLayout :name="layout">
     <Header />
-    <!--
-                    This page needs to read content dynamically from a component
-     -->
     <main class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
       <div class="py-6 text-center pb-10 md:pb-16 max-w-4xl mx-auto">
         <h1 class="text-5xl md:text-6xl dark:text-white font-bold leading-tighter tracking-tighter mb-6 font-heading">
           Events
         </h1>
         <section>
+          <ul class="flex">
+            <li class="flex-1 mr-2">
+              <a class="text-center block border border-blue-500 rounded py-2 px-4 bg-blue-500 hover:bg-blue-700 text-white"
+                href="#">Upcoming</a>
+            </li>
+            <li class="flex-1 mr-2">
+              <a class="text-center block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-2 px-4"
+                href="#">Past Events</a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <!-- calendar here -->
+        </section>
+          <section>
           <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
               <div class="relative z-10 lg:py-16">
@@ -33,6 +46,15 @@
               </div>
             </div>
           </div>
+        </section>
+
+        <section>
+          <p class="dark:text-white py-6">
+            <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
+              href="/">
+            + Add your Event   
+            </a>       
+          </p>
         </section>
       </div>
     </main>
