@@ -44,6 +44,12 @@
           </li>
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
+              href="https://timechain-docs.vercel.app/">
+              Tools
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/connect">
               Connect
             </a>
@@ -61,10 +67,6 @@
               class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
               <IconSun class="w-5 h-5" />
             </button>
-            <a href="https://github.com/timechain-academy"
-              class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
-              <GitIcon class='w-5 h-5' />
-            </a>
           </div>
         </div>
       </nav>
@@ -103,8 +105,8 @@
           <li><a href="/1on1" @click="isOpen = false" class="my-4 inline-block">1on1</a></li>
           <li><a href="/blog" @click="isOpen = false" class="my-4 inline-block">Blog</a></li>
           <li><a href="https://github.com/PLEBNET-PLAYGROUND/" @click="isOpen = false" class="my-4 inline-block">Plebnet</a></li>
-          <li><a href="/connect" @click="isOpen = false" class="my-4 inline-block">Connect</a></li>
-          <li><a href="/#Kickstart" @click="isOpen = false" class="my-8 w-full text-center font-semibold cta inline-block bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white">Get Involved</a></li>
+          <li><a href="https://timechain-docs.vercel.app/" @click="isOpen = false" class="my-4 inline-block">Tools</a></li>
+          <li><a href="/#Kickstart" @click="isOpen = false" class="my-8 w-full text-center font-semibold cta inline-block bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white">Connect</a></li>
         </ul>
 
         <div class="follow">
