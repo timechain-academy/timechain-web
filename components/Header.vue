@@ -26,30 +26,30 @@
 			class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-[calc(100vh-100px)] md:h-auto overflow-y-auto md:overflow-visible"
 			aria-label="Main navigation">
         <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center md:w-auto collapsed text-xl md:text-base">
-            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/events">
               Events
             </a>
           <li>
-            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/#Kickstart">
               Learn
             </a>
           </li>
           <li>
-            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/blog">
               Blog
             </a>
           </li>
           <li>
-            <a class="font-medium hover:text-gray-400 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="/connect">
               Connect
             </a>
           </li>
           <li class="md:hidden">
-            <a class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            <a class="font-bold hover:text-gray-900 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
               href="https://github.com/bitkarrot/tailnuxt">
               Github
             </a>
