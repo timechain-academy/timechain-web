@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<!-- Having Difficulty editing Markdown tables? Checkout https://tableconvert.com/ -->
+
+
 | Title        | Instructor | Start Date | Link|
 |-------------------------|:-----------:|-----------:| ----------:|
 | Intro to CSS |  Adam |        10/8/2022| Enroll link |
@@ -9,4 +12,3 @@ layout: default
 | Intro to JavaScript | Chris | 12/5/2022 | Enroll here |
 
 
-<!-- Having Difficulty editing Markdown tables? Checkout https://tableconvert.com/ -->

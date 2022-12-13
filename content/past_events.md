@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<!-- Having Difficulty editing Markdown tables? Checkout https://tableconvert.com/ -->
+
+
 ## Past Events
 
 | Title                   | Date + Time         | Location   | Who           |
