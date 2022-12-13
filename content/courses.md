@@ -9,4 +9,4 @@ layout: default
 | Intro to JavaScript | Chris | 12/5/2022 | Enroll here |
 
 
-Having Difficulty editing Markdown tables? Checkout https://tableconvert.com/
+<!-- Having Difficulty editing Markdown tables? Checkout https://tableconvert.com/ -->
