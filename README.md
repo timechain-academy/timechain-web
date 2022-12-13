@@ -3,9 +3,11 @@ timechain academy website
 
 ## Commands
 
-`yarn install`  installs dependencies
-
-`yarn dev -o`   starts local dev server at `localhost:3000`
+```
+$ git clone https://github.com/timechain-academy/timechain-web
+$ yarn install      (installs dependencies)
+$ yarn dev -o       (starts local dev server at localhost:3000)
+```
 
 
 ## Todo List: 
