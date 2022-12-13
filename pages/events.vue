@@ -19,8 +19,12 @@
           </ul>
         </section>
 
-        <section>
+        <section class="flex p-8 justify-center">
           <!-- calendar here -->
+          <ContentDoc path="/upcoming_events" class="flex-1 mr-2 prose dark:prose-invert" />
+          </section>
+          <section class="flex p-8 justify-center">
+          <ContentDoc path="/past_events" class="flex-1 mr-2 prose dark:prose-invert" />
         </section>
           <section>
           <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
