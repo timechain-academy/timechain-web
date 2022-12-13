@@ -3,7 +3,7 @@
     <Header />
         <main>
             <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
-                <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">         
+                <h1 class="py-6 dark:text-white text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading">         
                 Lightning Network
                 </h1> 
             </div>
@@ -30,14 +30,11 @@
           </h2>
 
           <p class="mt-4 text-gray-600">
-            Place holder here         
+            Place holder here. 
+            
+           You can create a Markdown file and import it here. 
+        
          </p>
-          <a
-            href="#"
-            class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-          >
-            Get in Touch
-          </a>
         </div>
       </div>
     </div>

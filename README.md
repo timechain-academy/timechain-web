@@ -1,20 +1,28 @@
 # timechain-web
 timechain academy website
 
+## About
+
+Buit with Nuxt3 js with tailwindcss and Content v2.0 plugin. 
+Dependencies kept to a minimum.
+
 ## Commands
 
-`yarn install`  installs dependencies
-`yarn dev -o`   starts local dev server at `localhost:3000`
+```
+$ git clone https://github.com/timechain-academy/timechain-web
+$ yarn install      (installs dependencies)
+$ yarn dev -o       (starts local dev server at localhost:3000)
+```
 
 
-## Todo list: 
-- use tailnuxt template [done]
-- apply styles, logos, images [done]
-- add Nuxt 3 Content for markdown ability [done] [see timechain-docs repo]
-- organize content and guides [done] [see timechain-docs]
+## Todo List: 
+
+- fix up connect page to point to discord, contact & creators [todo]
 - add events calendar & 1on1 ssr w/static data backend [todo]
-- fix up connect page [todo]
-- integrate cal.com and/or btc/ln payments for teaching sessions [todo]
+
+- integrate cal.com, btc/ln payments for teaching sessions [todo]
+- replace lorem ipsum placeholder text with real content [todo]
+
 
 ### CSS styling
 
@@ -22,4 +30,3 @@ timechain academy website
 - @tailwindcss/typography
 - @tailwindcss/forms
 - hyperUI front page layout
-- Daisy UI for components

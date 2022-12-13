@@ -20,6 +20,6 @@ module.exports = {
     require('@tailwindcss/typography'),
     // ...
   ],
-darkMode: 'class',
-//darkMode: ['class', '[data-mode="dark"]'],
+  darkMode: 'class',
+  //darkMode: ['class', '[data-mode="dark"]'],
 };

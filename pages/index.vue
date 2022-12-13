@@ -5,7 +5,7 @@
             <Kickstart/>
             <Splash />
             <hr/>
-            <Footer />
+          <Footer />
     </NuxtLayout>
 </template>
 
