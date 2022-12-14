@@ -8,7 +8,7 @@
 			</h1>
 			<div class="px-5 mx-auto text-left">
 					<article>
-						<ContentDoc path="/" class="prose dark:prose-invert" />
+						<ContentDoc path="/blog/" class="prose dark:prose-invert" />
 					</article>
 			</div>
 		<div class="px-5 mx-auto text-left">
@@ -21,7 +21,7 @@
 			<p class="py-5 text-gray-900 dark:text-white text-left"><b>Node.js sample code, formatted with color from Markdown source</b>
 			</p>
 
-			<ContentDoc path="/codeblock" class="prose dark:prose-invert text-left" />
+			<ContentDoc path="/blog/codeblock" class="prose dark:prose-invert text-left" />
 		</div>
 	</div>
 

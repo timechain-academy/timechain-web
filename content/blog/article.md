@@ -10,7 +10,7 @@ The content source is in a markdown file called **content/article.md**.
 The display logic is in **pages/blog.vue** and is referenced within by the following code:  
 
 ```js
-<ContentDoc path="/article" class="prose text-left" />
+<ContentDoc path="/blog/article" class="prose text-left" />
 ```
 
 Some Formatting in markdown.css needs to be updated. This is a start but it is incomplete for dark/light switching and some format auto-conversion 
