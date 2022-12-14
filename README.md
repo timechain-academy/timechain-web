@@ -17,9 +17,6 @@ $ yarn dev -o       (starts local dev server at localhost:3000)
 
 ## Todo List: 
 
-- add events calendar ssr w/static data backend [done]
-- fix dynamic links on the events page and add event [done]
-
 - 1on1 instructors ssr static data backend [todo]
 - blog posts as cards, put some real content here [todo]
 
@@ -34,8 +31,8 @@ $ yarn dev -o       (starts local dev server at localhost:3000)
 ### Plugins
 
 - Plugins to be used at a minimum. 
-- We need to make sure that version locking happens in package.json
-- Keep as low maintenance as possible.
+- We need to make sure that version locking happens in package.json [todo]
+- Keep as low maintenance as possible. any user can edit pages via markdown on github
 
 
 ### CSS styling
