@@ -17,11 +17,25 @@ $ yarn dev -o       (starts local dev server at localhost:3000)
 
 ## Todo List: 
 
-- fix up connect page to point to discord, contact & creators [todo]
-- add events calendar & 1on1 ssr w/static data backend [todo]
+- add events calendar ssr w/static data backend [done]
+- fix dynamic links on the events page and add event [done]
 
-- integrate cal.com, btc/ln payments for teaching sessions [todo]
-- replace lorem ipsum placeholder text with real content [todo]
+- 1on1 instructors ssr static data backend [todo]
+- blog posts as cards, put some real content here [todo]
+
+- replace lorem ipsum placeholder text with real content at [todo]
+    - index page (kickstart and splash)
+    - blog page, a few entries from randy's discord notes
+    - library site
+
+- integrate cal.com, btc/ln payments for sessions [future]
+
+
+### Plugins
+
+- Plugins to be used at a minimum. 
+- We need to make sure that version locking happens in package.json
+- Keep as low maintenance as possible.
 
 
 ### CSS styling

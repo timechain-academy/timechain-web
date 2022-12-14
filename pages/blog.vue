@@ -36,27 +36,4 @@
 
 <style scoped>
 /* change .dark to be .dark-mode so that it can work with @nuxtjs/color-mode  */
-
-
-/* .dark body {
-      background-color: rgb(15 23 42);
-      color: #ebf4f1;
-    }  */
-
-/* @tailwind base; 
-
-@layer base {
-*/
-		/* p {
-			@apply text-xl text-gray-500 mb-6;
-		} */
-/* 		
-		h1 {
-			@apply text-5xl md:text-6xl font-bold mb-6;
-		}
-		h2 {
-			@apply text-3xl md:text-4xl font-bold mb-4;
-		}
-	}   */
-
 </style>

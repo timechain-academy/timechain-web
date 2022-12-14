@@ -1,0 +1,21 @@
+<template>
+    <NuxtLayout :name="layout">
+        <Header />
+        <main class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0">
+            <div class="text-center pb-10 md:pb-16 max-w-4xl mx-auto">
+                <h1 class="py-5 mx-auto text-center text-5xl md:text-6xl text-gray-900 dark:text-white font-bold mb-6">
+                    Build
+                </h1>
+                <div class="px-5 mx-auto text-left">
+                    <article>
+                        <ContentDoc path="/build" class="prose dark:prose-invert" />
+                    </article>
+                </div>
+            </div>
+        </main>
+    </NuxtLayout>
+</template>
+
+<script setup> 
+  const layout = "default";
+</script>

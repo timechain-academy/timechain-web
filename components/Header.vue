@@ -38,14 +38,14 @@
           </li>
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="/blog">
-              Blog
+              href="/build">
+              Build
             </a>
           </li>
           <li>
             <a class="font-medium hover:text-gray-400 dark:hover:text-gray px-4 py-3 flex items-center transition duration-150 ease-in-out"
-              href="https://timechain-docs.vercel.app/">
-              Tools
+              href="/blog">
+              Blog
             </a>
           </li>
           <li>
@@ -101,11 +101,11 @@
 
         <ul class="divide-y font-sans">
           <li><a href="/events" @click="isOpen = false" class="my-4 inline-block">Events</a></li>
-          <li><a href="/courses" @click="isOpen = false" class="my-4 inline-block">Courses</a></li>
-          <li><a href="/1on1" @click="isOpen = false" class="my-4 inline-block">1on1</a></li>
+          <li><a href="/1on1" @click="isOpen = false" class="my-4 inline-block">1on1 Sessions</a></li>
+          <li><a href="/build" @click="isOpen = false" class="my-4 inline-block">Build</a></li>
+            <li><a href="https://github.com/PLEBNET-PLAYGROUND/" @click="isOpen = false" class="my-4 inline-block">Plebnet</a></li>
+            <li><a href="https://timechain-docs.vercel.app/" @click="isOpen = false" class="my-4 inline-block">Tools</a></li>
           <li><a href="/blog" @click="isOpen = false" class="my-4 inline-block">Blog</a></li>
-          <li><a href="https://github.com/PLEBNET-PLAYGROUND/" @click="isOpen = false" class="my-4 inline-block">Plebnet</a></li>
-          <li><a href="https://timechain-docs.vercel.app/" @click="isOpen = false" class="my-4 inline-block">Tools</a></li>
           <li><a href="/connect" @click="isOpen = false" class="my-8 w-full text-center font-semibold cta inline-block bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white">Connect</a></li>
         </ul>
 

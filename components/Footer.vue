@@ -9,7 +9,7 @@
       </a>
 
       <a href="https://twitter.com/timechainAcdmy"
-              class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-300 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-300 rounded-lg text-sm p-2.5">
+              class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-300 rounded-lg text-sm p-2.5">
               <svg 
                 aria-hidden="true" focusable="false" 
                 data-prefix="fab" data-icon="twitter" 
@@ -20,7 +20,7 @@
             </a>
 
       <a href="https://github.com/timechain-academy"
-              class=" text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-300 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-300 rounded-lg text-sm p-2.5">
+              class=" text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-300 rounded-lg text-sm p-2.5">
               <DiscordIcon class='w-5 h-5 inline-block justify-right' />  
             </a>
 
