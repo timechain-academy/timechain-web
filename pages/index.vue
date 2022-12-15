@@ -1,9 +1,9 @@
 <template>
     <NuxtLayout :name="layout">
         <Header />
-            <Hero />
-            <Kickstart/>
-            <Splash />
+            <LandingHero />
+            <LandingKickstart/>
+            <LandingSplash />
     </NuxtLayout>
 </template>
 
