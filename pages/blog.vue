@@ -7,10 +7,9 @@
 					Blog
 				</h1>
 				<div class="p-5 mx-auto text-left text-gray-900 dark:text-white">
-						This code block below is generated in markdown
-						and added here by a `ContentDoc` tag. The section below is text in markdown.
-						CSS styles on this page are scoped to the blog.vue page.
-				</div>
+						
+						<BlogPostList/>
+					</div>
 			</div>
 		</main>
 	</NuxtLayout>
