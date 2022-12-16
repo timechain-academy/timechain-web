@@ -19,13 +19,13 @@
         { 
             name: 'Randy McMillian', 
             title: 'Timelord One', 
-            imgpath: '/randy.jpg',
+            imgpath: '/instructors/randy.jpg',
             link: 'https://github.com/RandyMcMillan',
         }, 
         {   
             name: 'Bitkarrot', 
             title: 'Timelord Two', 
-            imgpath:'/bitkarrot.jpg', 
+            imgpath:'/instructors/bitkarrot.jpg', 
             link: 'https://github.com/bitkarrot',
         },
     ])

@@ -37,14 +37,14 @@
         { 
             name: 'Randy McMillian', 
             title: 'Bitcoin Core Developer', 
-            imgpath: '/randy.jpg',
+            imgpath: '/instructors/randy.jpg',
             link: 'https://github.com/RandyMcMillan',
             description: 'A little bit about me.',
         }, 
         {   
             name: 'Bitkarrot', 
             title: 'Lightning Dev', 
-            imgpath:'/bitkarrot.jpg', 
+            imgpath:'/instructors/bitkarrot.jpg', 
             link: 'https://calendly.com/bitkarrot',
             description: 'A short story about me, an all around haystack',
         },
