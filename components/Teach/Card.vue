@@ -18,8 +18,7 @@
         </div>
         <div class="ml-3 p-3">
             <p class="mt-1 text-sm font-medium text-gray-300 text-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                consequuntur deleniti, unde ab ut in!
+                We are ourselves the teachers, and students. Connect with us today! 
             </p>
             <p class="mt-3 text-sm text-left" >
                 <a href="#" class="text-sm font-bold text-orange-300 hover:text-gray-500">+ Book Me</a>

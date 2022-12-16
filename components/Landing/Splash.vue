@@ -13,9 +13,13 @@
                     <h2 class="text-3xl font-bold dark:text-white sm:text-4xl">Expand your mind</h2>
 
                     <p class="mt-4 text-gray-600 dark:text-slate-400">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-                        atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-                        veniam tempora deserunt? Molestiae eius quidem quam repellat.
+                        How do I get started, if I know nothing about coding?
+                        Relax.
+
+                        You are in the right place.
+                        We are all both teachers and students.
+                        Join us and we will explore together. 
+
                     </p>
 
                     <a href="/connect"
