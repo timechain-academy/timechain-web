@@ -11,10 +11,8 @@
                     </p>
                 </div>
             </div>
-            <div class="flex text-center py-6">
-                    <div class="flex-1 p-6">
-                        <Instructor />
-                    </div>
+            <div class="flex p-6 text-center">
+                <TeachPage />
             </div>
         </NuxtLayout>
 </template>
