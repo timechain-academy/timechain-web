@@ -5,16 +5,13 @@
                 src="/instructors/bitkarrot.jpg"
                 class="h-16 w-16 rounded-full object-cover" />
             <div class="ml-3">
-                <h3 class="text-lg font-medium text-white">Claire Mac</h3>
+                <h3 class="text-lg font-medium text-white">Claire MacKanangh</h3>
 
-                <div class="ml-3 py-3">
+                <div class="ml-3 ">
                     <ul class="-m-1 flex flex-wrap">
                         <li class="p-1 leading-none">
                             <a href="#" class="text-sm font-medium text-gray-300"> Bitcoin Developer </a>
                         </li> 
-                        <li class="p-1 leading-none">
-                            <a href="#" class="text-sm font-bold text-orange-300 hover:text-gray-500">+ Book Me</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -23,6 +20,9 @@
             <p class="mt-1 text-sm font-medium text-gray-300 text-left">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 consequuntur deleniti, unde ab ut in!
+            </p>
+            <p class="mt-3 text-sm text-left" >
+                <a href="#" class="text-sm font-bold text-orange-300 hover:text-gray-500">+ Book Me</a>
             </p>
         </div>
     </article>
