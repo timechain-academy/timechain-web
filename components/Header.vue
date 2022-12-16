@@ -106,7 +106,7 @@
             <li><a href="https://github.com/PLEBNET-PLAYGROUND/" @click="isOpen = false" class="my-4 inline-block">Plebnet</a></li>
             <li><a href="https://timechain-docs.vercel.app/" @click="isOpen = false" class="my-4 inline-block">Tools</a></li>
           <li><a href="/blog" @click="isOpen = false" class="my-4 inline-block">Blog</a></li>
-          <li><a href="/connect" @click="isOpen = false" class="my-8 w-full text-center font-semibold cta inline-block bg-blue-500 hover:bg-blue-600 px-3 py-2 rounded text-white">Connect</a></li>
+          <li><a href="/connect" @click="isOpen = false" class="my-8 w-full text-center font-semibold cta inline-block bg-indigo-700 hover:bg-indigo-800 px-3 py-2 rounded text-white">Connect</a></li>
         </ul>
 
         <div class="follow">
