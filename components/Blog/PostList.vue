@@ -1,6 +1,9 @@
 <template>
     <div class="container">
         <section class="articles">
+            <div class="max-w-5xl"> 
+                + Add a post
+            </div>
             <div class="column is-8 is-offset-2">
 
                   <BlogPostCard 

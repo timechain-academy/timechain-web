@@ -22,8 +22,8 @@
   
   <div class="hidden sm:block sm:basis-56">
     <img
-      alt="Guitar"
-      :src=post.image
+      alt="Post Image"
+      :src=showImage(post.image)
       class="aspect-square h-full w-full object-cover"
     />
   </div>
@@ -62,6 +62,16 @@ export default {
   name:'BlogPostCard',
   props: { 
     post: Object
+  },
+  methods: {
+    showImage(img) { 
+      console.log(img)
+      if (img) { 
+        return img 
+      } else {
+        return "tca-icon.png"
+      }
+    },
   }
 }
 </script>

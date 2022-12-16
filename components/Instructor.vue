@@ -1,5 +1,5 @@
 <template>
-<div class="grid grid-cols-2 grid-rows-1 gap-2  dark:text-white">
+<div class="grid grid-cols-2 gap-4 dark:text-white">
     <div class="justify-center md:flex" v-for="item in people">
         <div class="md:flex-shrink-0">
             <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
