@@ -14,12 +14,12 @@ $ yarn install      (installs dependencies)
 $ yarn dev -o       (starts local dev server at localhost:3000)
 ```
 
-
 ## Todo List: 
 
-- replace lorem ipsum placeholder text with real content at [todo]
+- replace lorem ipsum placeholder text with real content at:
     - blog page
     - library site (timechain-docs)
+    - events page
 - update Discord link 
 - update Donate link
 
