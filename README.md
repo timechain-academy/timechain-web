@@ -20,7 +20,6 @@ $ yarn dev -o       (starts local dev server at localhost:3000)
     - blog page
     - library site (timechain-docs)
     - events page
-- update Discord link 
 - update Donate link
 
 ### Refactoring
