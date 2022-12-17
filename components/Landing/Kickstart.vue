@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-900 dark:bg-gray-900 text-white">
+  <section class="bg-indigo-900 dark:bg-gray-900 text-white">
     <a name="Kickstart"></a>
 
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -14,7 +14,6 @@
       </div>
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-         
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
           href="/events">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
@@ -29,10 +28,11 @@
           <h2 class="mt-4 text-xl font-bold text-white">Events</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Kickstart yourself here by articipating in a lower-cost "launchpad"-type 
-          course to prepare for the higher-time-commitment courses.
+            Kickstart yourself here by participating in a lower-cost "launchpad"-type 
+          courses to prepare for the higher-time-commitment courses.
           </p>
         </a>
+        
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
           href="1on1">
@@ -68,7 +68,7 @@
 
           <p class="mt-1 text-sm text-gray-300">
             Engage with projects members are building on. Have a project
-            you are working on and want to share it? Add it here.
+            you are working on and want to share it? Add yours here!
           </p>
         </a>
 
@@ -86,9 +86,9 @@
           <h2 class="mt-4 text-xl font-bold text-white">Plebnet Playground</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Want to try bitcoin and lightning at no risk? 
-            Check out Plebnet Playground which is built on a testnet
-            to see how it all works in action
+            Want to try out bitcoin and lightning at no risk? 
+            Check out Plebnet Playground, built on testnet
+            to see how it all works.
           </p>
         </a>
 
@@ -107,7 +107,7 @@
 
           <p class="mt-1 text-sm text-gray-300">
             New to coding? Not sure where to find good resources? 
-            Visit the Library of tools we use. Feel free to contribute as well!
+            Visit the Library of tools we use.
           </p>
         </a>
 
@@ -126,8 +126,8 @@
           <h2 class="mt-4 text-xl font-bold text-white">Blog</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Stay tuned for updates about the academy and interesting tidbits
-            you should know about bitcoin.
+            Stay tuned for updates about the academy and useful tidbits
+            you should learn about bitcoin.
           </p>
         </a>
       </div>
