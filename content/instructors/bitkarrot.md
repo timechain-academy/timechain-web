@@ -1,8 +1,8 @@
 ---
 title: Lightning Dev
-author: bitkarrot
-description: anything #bitcoin and #lightning, the full stack
+author: Bitkarrot
+description: I'm an all around haystack AI Carrot. Building on LNBits, lightning apps. 
 image: "instructors/bitkarrot.jpg"
-link: "calendly.com/bitkarrot"
+link: "https://calendly.com/bitkarrot"
 navigation: true
 ---

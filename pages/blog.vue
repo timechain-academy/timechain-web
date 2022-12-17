@@ -7,7 +7,6 @@
 					Blog
 				</h1>
 				<div class="p-5 mx-auto text-left text-gray-900 dark:text-white">
-						
 						<BlogPostList/>
 					</div>
 			</div>
