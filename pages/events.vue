@@ -27,7 +27,7 @@
 
         <!-- calendar here -->
         <section class="flex p-8 justify-center">
-          <ContentDoc :path=drawer() class="flex-1 mr-2 prose dark:prose-invert" />
+          <ContentDoc :path=drawer() class="flex-1 text-xl mr-2 prose dark:prose-invert" />
         </section>
 
       </div>
