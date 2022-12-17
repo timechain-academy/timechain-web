@@ -13,7 +13,7 @@
           Join us on Discord, Twitter, or Github
         </h2>
           <div class="">
-            <a href="https://discord.com"
+            <a href="https://discord.gg/XkxafTyQZC"
               class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-300 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-300 rounded-lg text-sm p-2.5">
               <IconDiscord class='w-10 h-10' />  
             </a>
