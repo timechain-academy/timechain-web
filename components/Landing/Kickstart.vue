@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-900 dark:bg-gray-900 text-white">
+  <section class="bg-indigo-900 dark:bg-gray-900 text-white">
     <a name="Kickstart"></a>
 
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -7,14 +7,13 @@
         <h2 class="text-3xl font-bold sm:text-4xl">Kickstart your Education</h2>
 
         <p class="mt-4 dark:bg-gray-900 dark:text-gray-300">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
-          aliquam doloribus nesciunt eos fugiat. Vitae aperiam fugit consequuntur
-          saepe laborum.
+          We are building a Discord-based Bitcoin education space that can
+          serve Bitcoiners and Lightning enthusiasts at all experience levels.
+         
         </p>
       </div>
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-         
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
           href="/events">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-500" fill="none" viewBox="0 0 24 24"
@@ -29,10 +28,11 @@
           <h2 class="mt-4 text-xl font-bold text-white">Events</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            Kickstart yourself here by participating in a lower-cost "launchpad"-type 
+          courses to prepare for the higher-time-commitment courses.
           </p>
         </a>
+        
 
         <a class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
           href="1on1">
@@ -48,8 +48,8 @@
           <h2 class="mt-4 text-xl font-bold text-white">1 on 1 Sessions</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            Need a mentor? Or maybe some personalized time?
+            Book a session with a timechain academy instructor!
           </p>
         </a>
 
@@ -67,8 +67,8 @@
           <h2 class="mt-4 text-xl font-bold text-white">Build</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            Engage with projects members are building on. Have a project
+            you are working on and want to share it? Add yours here!
           </p>
         </a>
 
@@ -86,8 +86,9 @@
           <h2 class="mt-4 text-xl font-bold text-white">Plebnet Playground</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            Want to try out bitcoin and lightning at no risk? 
+            Check out Plebnet Playground, built on testnet
+            to see how it all works.
           </p>
         </a>
 
@@ -105,8 +106,8 @@
           <h2 class="mt-4 text-xl font-bold text-white">Dev Tools</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            New to coding? Not sure where to find good resources? 
+            Visit the Library of tools we use.
           </p>
         </a>
 
@@ -125,28 +126,11 @@
           <h2 class="mt-4 text-xl font-bold text-white">Blog</h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-            possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+            Stay tuned for updates about the academy and useful tidbits
+            you should learn about bitcoin.
           </p>
         </a>
-
-
-
       </div>
-
-      <!-- Extra Button -->
-      <!-- 
-        <div class="mt-12 text-center">
-        <a href="#"
-          class="mt-8 inline-flex items-center rounded border border-pink-600 bg-pink-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-pink-500">
-          <span class="text-sm font-medium"> Get Started </span>
-
-          <svg class="ml-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </a>
-      </div> -->
 
     </div>
   </section>

@@ -17,7 +17,7 @@
             <div class="max-w-none px-4 flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
               <div class="flex w-full sm:w-auto">
                 <a
-                  class="btn text-white border border-primary-600 bg-primary-600 hover:bg-primary-800 hover:border-primary-800 sm:mb-0 font-bold w-full px-10 py-3 rounded-md"
+                  class="btn text-white border border-indigo-600 bg-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 sm:mb-0 font-bold w-full px-10 py-3 rounded-md"
                   href="#Kickstart"
                 >
                   Get Involved

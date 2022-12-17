@@ -1,6 +1,5 @@
 <template>
 <section>
-<!-- <section class="bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900 border-b dark:border-b-0"> -->
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                 <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
@@ -13,9 +12,13 @@
                     <h2 class="text-3xl font-bold dark:text-white sm:text-4xl">Expand your mind</h2>
 
                     <p class="mt-4 text-gray-600 dark:text-slate-400">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-                        atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-                        veniam tempora deserunt? Molestiae eius quidem quam repellat.
+                        How do I get started, if I know nothing about coding?
+                        Relax.
+
+                        You are in the right place.
+                        We are all both teachers and students.
+                        Join us and we will explore together. 
+
                     </p>
 
                     <a href="/connect"

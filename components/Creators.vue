@@ -18,14 +18,14 @@
     const items = ref([
         { 
             name: 'Randy McMillian', 
-            title: 'smurf one', 
-            imgpath: '/randy.jpg',
+            title: 'Timelord One', 
+            imgpath: '/instructors/randy.jpg',
             link: 'https://github.com/RandyMcMillan',
         }, 
         {   
             name: 'Bitkarrot', 
-            title: 'smurf two', 
-            imgpath:'/bitkarrot.jpg', 
+            title: 'Timelord Two', 
+            imgpath:'/instructors/bitkarrot.jpg', 
             link: 'https://github.com/bitkarrot',
         },
     ])

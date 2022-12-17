@@ -18,14 +18,19 @@ $ yarn dev -o       (starts local dev server at localhost:3000)
 ## Todo List: 
 
 - 1on1 instructors ssr static data backend [todo]
-
 - blog posts as cards, put some real content here [todo]
+
 
 - replace lorem ipsum placeholder text with real content at [todo]
     - index page (kickstart and splash sections)
     - blog page, a few entries from randy's discord notes
     - library site (timechain-docs)
 
+
+### Refactoring
+
+- replace <a href> links with <NuxtLink/> [todo]
+- Refactor tailwindcss into reusable components [todo]
 - integrate cal.com, btc/ln payments for sessions [future]
 
 

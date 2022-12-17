@@ -13,4 +13,7 @@ layout: default
 # Have a project you're working on? 
 
 Add your Project here! 
-[Edit this file](https://github.com/timechain-academy/timechain-web/tree/master/content/build.md)
+<a class="font-medium font-bold text-indigo-600 dark:text-orange-300 hover:text-gray-400 dark:hover:text-gray-400 px-4 py-3 flex-1 transition duration-150 ease-in-out"
+ href="https://github.com/timechain-academy/timechain-web/blob/master/content/build.md">
+                  + Edit this file
+</a>
