@@ -25,7 +25,7 @@ $ yarn dev -o       (starts local dev server at localhost:3000)
 
 ### Refactoring
 
-- replace <a href> links with <NuxtLink/> [todo]
+- replace <a href> links with NuxtLink if it helps [todo]
 - Refactor tailwindcss into reusable components [todo]
 - integrate cal.com, btc/ln payments for sessions [future]
 
