@@ -9,7 +9,7 @@
 -->
 <div class="p-6 py-6">
 
-<article class="flex bg-white transition hover:shadow-xl">
+<article class="flex rounded-xl bg-indigo-100 dark:bg-white transition hover:shadow-xl">
   <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
     <time
       datetime="2022-10-10"
