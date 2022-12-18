@@ -1,5 +1,7 @@
 <template>
-    <nuxt-img :src=path width="800"/> 
+    <div class="grid place-items-center">
+        <nuxt-img :src=path :width=wd :height=ht></nuxt-img>
+    </div>
 </template>
 
 <script>
@@ -7,10 +9,9 @@
 export default { 
     name: 'Postimage',
     props: { 
-        path: {
-            type: String,
-            default: ''
-        }
+        path: String,
+        wd: Number,
+        ht: Number,
     }
 }
 </script>

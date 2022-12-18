@@ -29,7 +29,9 @@
         <section class="flex p-8 justify-center">
           <ContentDoc :path=drawer() class="flex-1 text-xl mr-2 prose dark:prose-invert" />
         </section>
-
+        <div class="grid place-items-center">
+        <nuxt-img src="/sample-imgs/sd3.png" width=400 height=400></nuxt-img>
+    </div>
       </div>
     </main>
   </NuxtLayout>
