@@ -18,7 +18,7 @@
               <div class="flex w-full sm:w-auto">
                 <a
                   class="btn text-white border border-indigo-600 bg-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 sm:mb-0 font-bold w-full px-10 py-3 rounded-md"
-                  href="#Kickstart"
+                  href="/posts/intro"
                 >
                   Get Involved
                 </a>

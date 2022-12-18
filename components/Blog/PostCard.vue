@@ -10,7 +10,7 @@
 <div class="p-6 py-6">
 
 <article class="flex rounded-xl bg-indigo-100 dark:bg-white transition hover:shadow-xl">
-  <div class="rotate-180 p-2 [writing-mode:_vertical-lr]">
+  <div class="rotate-180 p-2 bg-indigo-100 [writing-mode:_vertical-lr]">
     <time
       datetime="2022-10-10"
       class="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
@@ -36,7 +36,7 @@
         </h3>
       </a>
 
-      <p class="mt-2 text-sm leading-relaxed text-gray-700 line-clamp-3">
+      <p class="mt-2 text-s leading-relaxed text-gray-700 line-clamp-3">
        {{ post.description }}
 
       </p>
