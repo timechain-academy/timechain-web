@@ -24,6 +24,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",
-    "@tailwindcss/typography": "^0.5.8"
+    "@tailwindcss/typography": "^0.5.8",
+    "cjs": "0.0.11"
   }
 }
