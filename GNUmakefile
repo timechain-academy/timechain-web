@@ -170,6 +170,8 @@ report:## report					environment args
 	@echo ' PROJECT_NAME=${PROJECT_NAME}	'
 	@echo ' NODE_VERSION=${NODE_VERSION}	'
 	@echo ' NODE_ALIAS=${NODE_ALIAS}	'
+	@echo ' PACKAGE_MANAGER=${PACKAGE_MANAGER}	'
+	@echo ' PACKAGE_INSTALL=${PACKAGE_INSTALL}	'
 	@echo ' PYTHON=${PYTHON}'
 	@echo ' PYTHON2=${PYTHON2}'
 	@echo ' PYTHON3=${PYTHON3}'
