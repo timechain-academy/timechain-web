@@ -175,3 +175,5 @@ else
     echo TODO add support for $OSTYPE
 fi
 
+$PACKAGE_MANAGER $PACKAGE_INSTALL webpack@^4.27.0
+$PACKAGE_MANAGER $PACKAGE_INSTALL tailwindcss@>=3.0.0
