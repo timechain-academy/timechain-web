@@ -119,7 +119,7 @@ export GIT_REPO_PATH
 	#NOTE: 2 hashes are detected as 1st column output with color
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?##/ {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
-init: clean ## init clean
+init:## init
 #	@["$(shell $(SHELL))" == "/bin/zsh"] && zsh --emulate sh
 
 	@pushd scripts && ./initialize && popd
