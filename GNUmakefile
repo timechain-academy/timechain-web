@@ -215,8 +215,7 @@ nvm: executable ## nvm
 
 .PHONY: all
 all:- executable install init build ## all - executable install init build
-	@echo "make release"
-	@echo "make start"
+	@echo "make init install build release"
 
 .PHONY: submodule submodules
 submodule: submodules ## submodule
