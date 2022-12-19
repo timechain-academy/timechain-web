@@ -121,9 +121,8 @@ export GIT_REPO_PATH
 
 init:## init
 #	@["$(shell $(SHELL))" == "/bin/zsh"] && zsh --emulate sh
-
-	@pushd scripts && ./initialize && popd
-	@pushd scripts && $(PACKAGE_MANAGER) && popd
+	#@pushd scripts && ./initialize && popd
+	@pushd .       && $(PACKAGE_MANAGER) && popd
 
 .PHONY:install
 install:init## - ./scripts && $(PACKAGE_MANAGER) $(PACKAGE_INSTALL)
