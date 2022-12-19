@@ -1,0 +1,55 @@
+name: node ubuntu matrix with make nvm
+
+on:
+  push:
+    branches: [ "master", "**" ]
+  pull_request:
+    branches: [ "master", "**" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        os: [ubuntu-20.04, ubuntu-22.04, ubuntu-latest]
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: node v${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: make
+      run: |
+        make
+
+    - name: make init
+      run: |
+        make init
+
+    - name: make install
+      run: |
+        make install
+
+    - name: make build
+      run: |
+        make build
+
+    - name: make preview
+      run: |
+        make preview
+
+    - name: make dev
+      run: |
+        make dev
+
+    - name: make rebuild
+      run: |
+        make rebuild
+
+
+
