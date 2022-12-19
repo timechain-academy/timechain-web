@@ -27,6 +27,8 @@
     "@tailwindcss/typography": "^0.5.8",
     "cjs": "^0.0.11",
     "rebuild": "^0.1.2",
-    "release": "^6.3.1"
+    "release": "^6.3.1",
+    "tailwindcss": "^3.2.4",
+    "webpack": "^4.27.0"
   }
 }
