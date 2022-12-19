@@ -41,9 +41,9 @@ jobs:
 
     - name: make preview
       run: |
-        make preview & wait & curl http://localhost:3000
+        echo "TODO: make preview"
+        #make preview & wait & curl http://localhost:3000
 
     - name: make rebuild
       run: |
         make rebuild
-        make preview & wait & curl http://localhost:3000
