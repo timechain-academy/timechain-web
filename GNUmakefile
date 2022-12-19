@@ -125,21 +125,18 @@ init:## init
 	@pushd .       && $(PACKAGE_MANAGER) && popd
 
 .PHONY:install
-install:init## - ./scripts && $(PACKAGE_MANAGER) $(PACKAGE_INSTALL)
-	$(MAKE) init && pushd . && $(PACKAGE_MANAGER) $(PACKAGE_INSTALL) && popd
+install:init## make init install $(PACKAGE_MANAGER) install
+	$(MAKE) init && $(PACKAGE_MANAGER) install
 .PHONY:build
 build:## build
-	@pushd ./scripts && $(PACKAGE_MANAGER) run build && popd
+	#@pushd ./scripts && $(PACKAGE_MANAGER) run build && popd
+	@pushd . && $(PACKAGE_MANAGER) run build && popd
 .PHONY:preview
 preview:## preview
 	@node .output/server/index.mjs
 rebuild:## rebuild
-	@rm -rf $(find . -name package-lock.json)
-	@rm -rf $(find . -name yarn.lock)
-	@rm -rf $(find . -name node_modules)
-	#@rm -rf ./scripts/node_modules/electron
-	#@cd ./scripts && $(PACKAGE_MANAGER) $(PACKAGE_INSTALL) electron@10
-	@cd ./scripts && $(PACKAGE_MANAGER) $(PACKAGE_INSTALL) rebuild
+	@$(PACKAGE_MANAGER) run rebuild
+
 burnthemall:## burnthemall - hard reset & build
 	@cd ./scripts && $(PACKAGE_MANAGER) $(PACKAGE_INSTALL) burnthemall
 release:## release - build distribution
