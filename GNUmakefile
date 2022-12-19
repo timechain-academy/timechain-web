@@ -133,7 +133,11 @@ build:## build
 	@pushd . && $(PACKAGE_MANAGER) run build && popd
 .PHONY:preview
 preview:## preview
+	@$(PACKAGE_MANAGER) run preview
 	@node .output/server/index.mjs
+.PHONY:dev
+dev:## dev
+	@$(PACKAGE_MANAGER) run dev
 rebuild:## rebuild
 	@$(PACKAGE_MANAGER) run rebuild
 
@@ -222,10 +226,6 @@ submodule: submodules ## submodule
 submodules: ## submodules
 	git submodule update --init --recursive
 	git submodule foreach 'git fetch origin; git checkout $$(git rev-parse --abbrev-ref HEAD); git reset --hard origin/$$(git rev-parse --abbrev-ref HEAD); git submodule update --recursive; git clean -dfx'
-
-.PHONY: node
-node: ## node
-	$(MAKE) -f node.mk
 
 .PHONY: venv
 venv:## create python3 virtualenv .venv
