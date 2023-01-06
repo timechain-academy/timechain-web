@@ -4,7 +4,13 @@ layout: default
 
 # Projects we Build on. 
 
+- [Bitcoin Core](https://github.com/bitcoin-core)
+- [LNBits](https://github.com/lnbits/)
+- [BTCPay Server](https://github.com/btcpayserver)
 - [Plebnet Playground](https://github.com/PLEBNET-PLAYGROUND/)
+- [Nostr Protocol](https://usenostr.org/)
+- [Damus](https://github.com/damus-io/damus)
+- [Nostril](https://github.com/jb55/nostril)
 - [Timechain Library](https://timechain-docs.vercel.app/)
 
 ....
